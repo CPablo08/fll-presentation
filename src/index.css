@@ -1,0 +1,58 @@
+:root {
+  --text: #f6e8ce;
+  --sand-dark: #c7b289;
+  --edge: rgba(255, 224, 170, 0.24);
+  --bg:
+    radial-gradient(circle at 20% -30%, #524234 10%, transparent 55%),
+    radial-gradient(circle at 80% 120%, #173239 5%, transparent 40%),
+    linear-gradient(145deg, #30251d 0%, #171412 48%, #10141a 100%);
+  font-family: 'Trebuchet MS', 'Segoe UI', Tahoma, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  color: var(--text);
+  background-color: #111;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--bg);
+}
+
+h1 {
+  font-size: clamp(1.8rem, 3.8vw, 2.5rem);
+  margin: 0.25rem 0 0;
+}
+
+h2 {
+  font-size: 1.35rem;
+  margin: 0 0 0.4rem;
+}
+
+h3 {
+  margin: 0.25rem 0 0.75rem;
+  font-size: clamp(1.3rem, 3.2vw, 1.9rem);
+}
+
+h4 {
+  margin: 1rem 0 0.4rem;
+  color: #f3d6a2;
+}
+
+p {
+  margin: 0 0 0.7rem;
+}
+
+ul {
+  margin: 0;
+}
