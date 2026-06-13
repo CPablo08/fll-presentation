@@ -1,16 +1,23 @@
-# React + Vite
+# FLL Presentation — GridX / Steam Ravens Expedition
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Bilingual (EN/ES) interactive presentation for the **GridX / Steam Ravens** FLL expedition. Timeline navigation synced with **Yjs + y-webrtc**.
 
-Currently, two official plugins are available:
+## Stack
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- React 19 + Vite 8
+- Deployed on Vercel (`steam-ravens-fll-expedition`)
 
-## React Compiler
+## Run locally
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+```bash
+npm install
+npm run dev
+```
 
-## Expanding the ESLint configuration
+## Videos
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Large `.MOV` files in `public/videos/` are **gitignored** (GitHub upload limits). Keep them locally for full presentation playback.
+
+## Author
+
+Conrad Pablo — CPablo08
